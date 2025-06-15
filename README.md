@@ -1,13 +1,9 @@
-# 🌟 Responsive Spacing
-
 [![Pub Version](https://img.shields.io/pub/v/rs_seek)](https://pub.dev/packages/rs_seek)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/responsive_spacing?style=social)
-[![GitHub License](https://img.shields.io/github/license/yourusername/responsive_spacing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 The ultimate Flutter package for building responsive UIs that adapt beautifully to any screen size or orientation.
 
-## ✨ Features
+##  Features
 
 - **Complete responsive toolkit** for mobile, tablet & desktop
 - **Orientation-aware** components
@@ -24,9 +20,10 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  responsive_spacing: ^1.0.0
-
-
+  rs_seek: ^1.0.0
+```
+Check out the [example] for usage.
+````Structure
 ├── lib/
 │   ├── src/
 │   │   ├── rs_aspect_ratio.dart
@@ -43,12 +40,35 @@ dependencies:
 │
 ├── example/
 │   ├── lib/
-│   │   ├── main.dart
-│   │   ├── responsive_form_example.dart
-│   │   ├── responsive_gallery_example.dart
-│   │   ├── responsive_navigation_example.dart
-│   │   └── typography_showcase.dart
-│   └── pubspec.yaml
+│   │   ├── rs_seek.dart
+│   │   ├── eg_1.dart
+│   │   ├── eg_2.dart
+│   │   ├── eg_3.dart
+│   │   └── eg_4.dart
 │
 ├── README.md
 └── pubspec.yaml
+````
+
+
+## For the use of Git : (Main Git Commands)
+
+```bash
+git init
+git add .
+git remote add origin 'Repository Url'
+git commit -m 'Type : Message'
+
+git pull / git fetch origin
+git push origin 'branchName'
+git push origin 'branchName':'branchName2' --force
+
+git status
+git log
+git branch
+git merge 'branchName'
+
+git checkout 'branchName'
+git checkout -b 'branchName'
+```
+Built with ❤️ by Mohammad AD

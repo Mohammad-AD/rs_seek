@@ -3,15 +3,30 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:rs_seek/rs_seek.dart';
 
+/// A responsive grid layout widget that adapts to different screen sizes
 class RsGridColumn {
+  /// The number of columns this widget should span in the grid.
   final int span;
+
+  /// The child widget to display in this column.
   final Widget child;
+
+  /// extra small breakpoint span
   final int? xs;
+
+  /// small breakpoint span
   final int? sm;
+
+  /// medium breakpoint span
   final int? md;
+
+  /// large breakpoint span
   final int? lg;
+
+  /// extra large breakpoint span
   final int? xl;
 
+  /// Creates a new [RsGridColumn].
   RsGridColumn({
     required this.span,
     required this.child,
@@ -23,12 +38,21 @@ class RsGridColumn {
   });
 }
 
+/// A responsive grid layout widget that arranges its children in a grid format
 class RsGrid extends StatelessWidget {
+  /// list of [RsGridColumn] children to be displayed in the grid.
   final List<RsGridColumn> children;
+
+  /// The number of columns in the grid. Default is 12.
   final int columns;
+
+  /// The spacing between grid items. Default is 8.0.
   final double spacing;
+
+  /// The maximum width of the grid. If null, it will take the full available width.
   final double? maxWidth;
 
+  /// Creates a new [RsGrid].
   const RsGrid({
     required this.children,
     this.columns = 12,
