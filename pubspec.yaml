@@ -1,7 +1,7 @@
 name: rs_seek
 description: A modern and complete Flutter package for building responsive UIs across mobile, tablet, and desktop with orientation support.
 version: 1.0.0
-homepage: https://github.com/
+homepage: https://github.com/Mohammad-AD/rs_seek
 
 environment:
   sdk: ^3.8.1
